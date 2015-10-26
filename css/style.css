@@ -1,0 +1,65 @@
+.container-fluid{padding-left : 0px; padding-right: 0px}
+
+@media (min-width:768px){.container-fluid{width:750px}}@media (min-width:992px){.container-fluid{width:100%}}@media (min-width:1200px){.container-fluid{width:100%}}
+/*nav*/
+@media (min-width:768px){.navbar-header{margin-left : 0px}}@media (min-width:992px){.navbar-header{margin-left : 100px}}@media (min-width:1200px){.navbar-header{margin-left : 300px}}
+@media (min-width:768px){.navbar-nav{margin-right : 0px}}@media (min-width:992px){.navbar-nav{margin-right : 100px}}@media (min-width:1200px){.navbar-nav{margin-right : 300px}}
+
+/*slides*/
+@media (min-width:768px){.slide{height : auto}}@media (min-width:992px){.slide{height : auto}}@media (min-width:1200px){.slide{height : 1000px}}
+
+@media (min-width:768px){.slide{padding-top : 10px; padding-left: 10px; padding-right: 10px}}@media (min-width:992px){.slide{padding-top : 15px; padding-left: 15px; padding-right: 15px}}@media (min-width:1200px){.slide{padding-top : 50px; padding-left: 320px; padding-right: 320px}}
+
+
+#slide1{
+	background:url(../images/Slide1.png) 50% 0 no-repeat fixed;
+	width: 100%
+	background:url(images/slide1.png) 50% 0 no-repeat fixed;
+	background-size:cover;
+}
+
+#slide2{
+	background-color:#FFFFFF;
+	height:auto;
+	padding-bottom: 50px;
+}
+
+#slide3{
+	background:url(../images/Slide2.png) 50% 0 no-repeat fixed;
+	background-color:#D5D5D5;
+	width:100%;
+	height:auto;
+	padding-bottom: 50px;
+	background-size:cover;
+}
+
+#slide4{
+	background-color:#FFFFFF;
+	height:auto;
+	padding-bottom: 50px;
+}
+
+#slide5{
+	background:url(../images/Slide3.png) 50% 0 no-repeat fixed;
+	background-color:#D5D5D5;
+	height:auto;
+	padding-bottom: 50px;
+	background-size:cover;
+}
+
+#slide6{
+	background-color:#FFFFFF;
+	height:250px;
+	padding-bottom: 50px;
+}
+
+@media (min-width:768px){body{font-size : 10pt}}@media (min-width:992px){body{font-size : 12pt}}@media (min-width:1200px){body{font-size : 14pt}}
+
+#slide1 p{width : 400px}
+@media (min-width:768px){#slide1 p{width : 400px}}@media (min-width:992px){#slide1 p{width : 600px}}@media (min-width:1200px){#slide1 p{width : 800px}}
+
+#slide1 img {width:200px}
+@media (min-width:768px){#slide1 img{width : 300px}}@media (min-width:992px){#slide1 img{width : 300px}}@media (min-width:1200px){#slide1 img{width : 300px}}
+
+.fancybox img {margin : 0px 5px 5px 10px}
+@media (min-width:768px){.fancybox img{margin : 0px 5px 5px 10px}}@media (min-width:992px){.fancybox img{margin : 0px 10px 10px 20px}}@media (min-width:1200px){.fancybox img{margin : 0px 25px 25px 50px}}
