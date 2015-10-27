@@ -4,7 +4,7 @@
 	app.controller("PortfolioController",['$http', function($http){
 		var storage = this;
 					
-		$http.get('http://localhost/Portfolio/portfolio.php/projects').success(function(data){
+		$http.get('http://alexanderbasch.herokuapp.com/portfolio.php/projects').success(function(data){
 			storage.info = data;
 		});
 	}]);	

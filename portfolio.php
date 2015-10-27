@@ -19,10 +19,10 @@
 	
 	$app -> get('/projects/',function(){
 		
-	$servername = "localhost";
-	$username = "root";
-	$password = "mysql";
-	$dbname = "Portfolio";
+	$servername = "sql2.freemysqlhosting.net";
+	$username = "sql294395";
+	$password = "wU8!yA5*";
+	$dbname = "sql294395";
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
